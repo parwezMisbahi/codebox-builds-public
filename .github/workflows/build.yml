@@ -1,0 +1,50 @@
+name: CodeBox Build
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: "8.14.3"
+
+      - name: Unzip project
+        run: |
+          mkdir -p _src
+          unzip -q project.zip -d _src
+          DIR=_src
+          if [ ! -f "$DIR/settings.gradle.kts" ] && [ ! -f "$DIR/settings.gradle" ]; then
+            DIR=$(find _src -maxdepth 3 -name 'settings.gradle*' -printf '%h\n' | head -n1)
+          fi
+          echo "PROJECT_DIR=$DIR" >> "$GITHUB_ENV"
+
+      - name: Use fixed debug key (so updates install over old build)
+        run: |
+          mkdir -p ~/.android
+          echo "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" | base64 -d > ~/.android/debug.keystore
+
+      - name: Build debug APK
+        run: |
+          cd "$PROJECT_DIR"
+          if [ -f gradlew ]; then
+            chmod +x gradlew
+            ./gradlew assembleDebug --no-daemon
+          else
+            gradle assembleDebug --no-daemon
+          fi
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: apk
+          path: ${{ env.PROJECT_DIR }}/**/build/outputs/apk/debug/*.apk
+          if-no-files-found: error
