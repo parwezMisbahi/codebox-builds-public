@@ -33,6 +33,192 @@ jobs:
           mkdir -p ~/.android
           echo "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" | base64 -d > ~/.android/debug.keystore
 
+      - name: Apply build settings (codebox-build.yml - name, package, icon, version)
+        run: |
+          python3 - <<'PYEOF'
+          import os, re, sys, glob, shutil, subprocess
+
+          root = os.environ["PROJECT_DIR"]
+          cfg_path = os.path.join(root, "codebox-build.yml")
+          env_out = os.environ.get("GITHUB_ENV")
+
+          def log(m): print("[codebox-config] " + m, flush=True)
+          def die(m):
+              print("::error::codebox-build.yml: " + m, flush=True)
+              sys.exit(1)
+
+          # ---- tiny "key: value" reader (no PyYAML needed) ----
+          cfg = {}
+          if os.path.isfile(cfg_path):
+              for raw in open(cfg_path, encoding="utf-8-sig").read().splitlines():
+                  line = raw.strip()
+                  if not line or line.startswith("#") or ":" not in line:
+                      continue
+                  k, v = line.split(":", 1)
+                  k, v = k.strip().lower(), v.strip()
+                  if v[:1] in "\"'" and v.count(v[0]) >= 2:
+                      v = v[1:v.index(v[0], 1)]
+                  else:
+                      v = re.split(r"\s+#", v)[0].strip()
+                  if v:
+                      cfg[k] = v
+              log("config: " + ", ".join(k for k in cfg if "pass" not in k) or "(empty)")
+          else:
+              log("codebox-build.yml nahi mili - project jaisa hai waisa build hoga")
+
+          def find_app_modules():
+              mods = []
+              for f in glob.glob(os.path.join(root, "**", "build.gradle*"), recursive=True):
+                  if "/build/" in f.replace("\\", "/") or "/node_modules/" in f:
+                      continue
+                  t = open(f, encoding="utf-8", errors="ignore").read()
+                  if re.search(r"com\.android\.application", t):
+                      mods.append(os.path.dirname(f))
+              return mods or [os.path.join(root, "app")]
+
+          def gradle_file(mod):
+              for n in ("build.gradle.kts", "build.gradle"):
+                  p = os.path.join(mod, n)
+                  if os.path.isfile(p):
+                      return p
+              return None
+
+          modules = find_app_modules()
+          log("app module: " + ", ".join(os.path.relpath(m, root) for m in modules))
+
+          # ---- package name / version ----
+          pkg = cfg.get("package_name") or cfg.get("package")
+          if pkg and not re.fullmatch(r"[A-Za-z][A-Za-z0-9_]*(\.[A-Za-z][A-Za-z0-9_]*)+", pkg):
+              die("package_name galat hai: %r (example: com.mycompany.myapp)" % pkg)
+
+          def set_gradle(mod, key, value, quote):
+              gf = gradle_file(mod)
+              if not gf:
+                  return
+              t = open(gf, encoding="utf-8").read()
+              val = '"%s"' % value if quote else value
+              pat = re.compile(r"(\b%s\s*=?\s*)(\"[^\"]*\"|'[^']*'|\d+)" % key)
+              if pat.search(t):
+                  t = pat.sub(lambda m: m.group(1) + val, t, count=1)
+              else:
+                  m = re.search(r"defaultConfig\s*\{", t)
+                  if not m:
+                      die("%s me defaultConfig nahi mila, %s set nahi ho saka" % (gf, key))
+                  eq = "" if gf.endswith(".gradle") else "= "
+                  t = t[:m.end()] + "\n        %s %s%s" % (key, eq, val) + t[m.end():]
+              open(gf, "w", encoding="utf-8").write(t)
+
+          for mod in modules:
+              if pkg:
+                  set_gradle(mod, "applicationId", pkg, True)
+                  log("package name -> " + pkg)
+              if cfg.get("version_name"):
+                  set_gradle(mod, "versionName", cfg["version_name"], True)
+                  log("versionName -> " + cfg["version_name"])
+              if cfg.get("version_code"):
+                  if not cfg["version_code"].isdigit():
+                      die("version_code number hona chahiye")
+                  set_gradle(mod, "versionCode", cfg["version_code"], False)
+                  log("versionCode -> " + cfg["version_code"])
+
+          # ---- app name ----
+          name = cfg.get("app_name") or cfg.get("name")
+          def esc_xml(s):
+              s = s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+              return s.replace("\\", "\\\\").replace("'", "\\'").replace('"', '\\"')
+
+          def manifest_of(mod):
+              p = os.path.join(mod, "src", "main", "AndroidManifest.xml")
+              return p if os.path.isfile(p) else None
+
+          if name:
+              for mod in modules:
+                  mf = manifest_of(mod)
+                  if not mf:
+                      continue
+                  t = open(mf, encoding="utf-8").read()
+                  m = re.search(r'android:label\s*=\s*"([^"]*)"', t)
+                  done = False
+                  if m and m.group(1).startswith("@string/"):
+                      key = m.group(1)[len("@string/"):]
+                      for sf in glob.glob(os.path.join(mod, "src", "*", "res", "values*", "strings.xml")):
+                          s = open(sf, encoding="utf-8").read()
+                          p = re.compile(r'(<string\s+name="%s"[^>]*>)(.*?)(</string>)' % re.escape(key), re.S)
+                          if p.search(s):
+                              s = p.sub(lambda mm: mm.group(1) + esc_xml(name) + mm.group(3), s)
+                              open(sf, "w", encoding="utf-8").write(s)
+                              done = True
+                  if not done:
+                      if m:
+                          t = t[:m.start()] + 'android:label="%s"' % name.replace("&", "&amp;").replace('"', "&quot;").replace("<", "&lt;") + t[m.end():]
+                      else:
+                          t = re.sub(r"<application", '<application android:label="%s"' % name.replace("&", "&amp;").replace('"', "&quot;").replace("<", "&lt;"), t, count=1)
+                      open(mf, "w", encoding="utf-8").write(t)
+                  # activity-level labels would override the app name on the launcher
+                  t = open(mf, encoding="utf-8").read()
+                  t2 = re.sub(r'(<activity\b[^>]*?)\s+android:label\s*=\s*"[^"]*"', r"\1", t)
+                  if t2 != t:
+                      open(mf, "w", encoding="utf-8").write(t2)
+                  log("app name -> " + name)
+
+          # ---- icon ----
+          icon = cfg.get("icon")
+          if icon:
+              src = os.path.normpath(os.path.join(root, icon))
+              if not os.path.isfile(src):
+                  die("icon file nahi mili: %s (project me daalo, jaise icon.png)" % icon)
+              conv = shutil.which("magick") or shutil.which("convert")
+              if not conv:
+                  die("ImageMagick runner par nahi hai")
+              sizes = {"mdpi": 48, "hdpi": 72, "xhdpi": 96, "xxhdpi": 144, "xxxhdpi": 192}
+              for mod in modules:
+                  mf = manifest_of(mod)
+                  if not mf:
+                      continue
+                  res = os.path.join(mod, "src", "main", "res")
+                  for d, px in sizes.items():
+                      od = os.path.join(res, "mipmap-" + d)
+                      os.makedirs(od, exist_ok=True)
+                      cmd = ([conv] if os.path.basename(conv) == "magick" else [conv]) + [
+                          src + "[0]", "-background", "none", "-resize", "%dx%d^" % (px, px),
+                          "-gravity", "center", "-extent", "%dx%d" % (px, px),
+                          os.path.join(od, "codebox_icon.png")]
+                      subprocess.run(cmd, check=True)
+                  t = open(mf, encoding="utf-8").read()
+                  for attr in ("icon", "roundIcon"):
+                      val = "@mipmap/codebox_icon"
+                      if re.search(r'android:%s\s*=\s*"[^"]*"' % attr, t):
+                          t = re.sub(r'android:%s\s*=\s*"[^"]*"' % attr, 'android:%s="%s"' % (attr, val), t, count=1)
+                      else:
+                          t = t.replace("<application", '<application android:%s="%s"' % (attr, val), 1)
+                  open(mf, "w", encoding="utf-8").write(t)
+              log("icon -> " + icon)
+
+          # ---- signing key (applied after the build, see "Sign APK" step) ----
+          ks = cfg.get("keystore")
+          env = {}
+          if ks:
+              kp = os.path.normpath(os.path.join(root, ks))
+              if not os.path.isfile(kp):
+                  die("keystore file nahi mili: %s" % ks)
+              sp = cfg.get("keystore_password") or os.environ.get("CODEBOX_KEYSTORE_PASSWORD", "")
+              alias = cfg.get("key_alias") or ""
+              if not sp or not alias:
+                  die("keystore ke saath keystore_password aur key_alias bhi chahiye")
+              kpass = cfg.get("key_password") or sp
+              for secret in (sp, kpass):
+                  print("::add-mask::" + secret)
+              env.update(CB_KS=kp, CB_KS_PASS=sp, CB_KEY_ALIAS=alias, CB_KEY_PASS=kpass)
+              log("signing: custom keystore (%s, alias %s)" % (ks, alias))
+          else:
+              log("signing: fixed CodeBox debug key")
+
+          if env_out:
+              with open(env_out, "a") as f:
+                  for k, v in env.items():
+                      f.write("%s=%s\n" % (k, v))
+          PYEOF
+
       - name: Build debug APK
         run: |
           cd "$PROJECT_DIR"
@@ -42,6 +228,20 @@ jobs:
           else
             gradle assembleDebug --no-daemon
           fi
+
+      - name: Sign APK with custom keystore (only if keystore is set in codebox-build.yml)
+        if: ${{ env.CB_KS != '' }}
+        run: |
+          SDK="${ANDROID_HOME:-${ANDROID_SDK_ROOT:-/usr/local/lib/android/sdk}}"
+          APKSIGNER=$(ls -d "$SDK"/build-tools/*/apksigner | sort -V | tail -n1)
+          echo "apksigner: $APKSIGNER"
+          for f in $(find "$PROJECT_DIR" -path '*/build/outputs/apk/debug/*.apk'); do
+            "$APKSIGNER" sign --ks "$CB_KS" --ks-key-alias "$CB_KEY_ALIAS" \
+              --ks-pass env:CB_KS_PASS --key-pass env:CB_KEY_PASS \
+              --v4-signing-enabled false --out "$f.signed" "$f"
+            mv "$f.signed" "$f"
+            "$APKSIGNER" verify --print-certs "$f" | head -n 3
+          done
 
       - uses: actions/upload-artifact@v4
         with:
